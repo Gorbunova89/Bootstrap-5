@@ -30,3 +30,9 @@ body {
 .one img {
     border-radius: 10px;
 }
+
+.section-two .p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #4ba11e;
+}
