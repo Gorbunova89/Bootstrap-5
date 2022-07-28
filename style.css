@@ -1,0 +1,32 @@
+.navbar-brand a:hover {
+    color: white;
+    font-weight: 700;
+}
+
+body {
+    /* font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Mono', monospace; */
+}
+
+.header {
+    font-family: 'Lato', sans-serif;
+}
+
+/* .container h1{
+    font-family: 'Roboto Mono', monospace;
+} */
+
+
+.one {
+    background-color: rgb(241, 239, 239);
+}
+
+.btn {
+    background-color: rgb(235, 131, 57);
+    color: white;
+    font-weight: 500;
+}
+
+.one img {
+    border-radius: 10px;
+}
