@@ -1,21 +1,10 @@
-.navbar-brand a:hover {
-    color: white;
-    font-weight: 700;
-}
-
 body {
-    /* font-family: 'Lato', sans-serif;
-    font-family: 'Roboto Mono', monospace; */
-}
+    font:  var(--bs-font-sans-serif);
+  }
 
 .header {
     font-family: 'Lato', sans-serif;
 }
-
-/* .container h1{
-    font-family: 'Roboto Mono', monospace;
-} */
-
 
 .one {
     background-color: rgb(241, 239, 239);
@@ -27,7 +16,7 @@ body {
     font-weight: 500;
 }
 
-.one img {
+.one img, .three img {
     border-radius: 10px;
 }
 
@@ -35,4 +24,15 @@ body {
     font-size: 20px;
     font-weight: 500;
     color: #4ba11e;
+    opacity: 50%;
 }
+
+.link-dark:hover {
+    background-color: #4ba11e;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+
+
+
