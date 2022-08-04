@@ -10,7 +10,7 @@ body {
     background-color: rgb(241, 239, 239);
 }
 
-.btn {
+.three .btn, .one .btn, .four .btn {
     background-color: rgb(235, 131, 57);
     color: white;
     font-weight: 500;
@@ -32,6 +32,22 @@ body {
     border-radius: 10px;
     transition: all 0.3s;
 }
+
+.back {
+    background: url(img/2397-x700.jpg);
+    min-height: 500px;
+    background-position: center;
+    border-radius: 10px;
+    background-size: 100%;
+
+    
+}
+
+.back-row {
+    padding: 150px  180px;
+}
+
+
 
 
 
