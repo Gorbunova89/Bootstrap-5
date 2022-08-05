@@ -1,5 +1,10 @@
 body {
-    font:  var(--bs-font-sans-serif);
+    font-family: 'Lato', sans-serif;
+  }
+
+  :root {
+    --color1: rgb(245, 126, 41);
+    --color2: #4ba11e;
   }
 
 .header {
@@ -11,9 +16,10 @@ body {
 }
 
 .three .btn, .one .btn, .four .btn {
-    background-color: rgb(235, 131, 57);
+    background-color: var(--color1);
     color: white;
     font-weight: 500;
+    border-radius: 20px;
 }
 
 .one img, .three img {
@@ -23,19 +29,19 @@ body {
 .section-two .p {
     font-size: 20px;
     font-weight: 500;
-    color: #4ba11e;
+    color: var(--color2);
     opacity: 50%;
 }
 
 .link-dark:hover {
-    background-color: #4ba11e;
+    background-color: var(--color2);
     border-radius: 10px;
     transition: all 0.3s;
 }
 
 .back {
     background: url(img/2397-x700.jpg);
-    min-height: 500px;
+    max-height: 500px;
     background-position: center;
     border-radius: 10px;
     background-size: 100%;
@@ -44,10 +50,25 @@ body {
 }
 
 .back-row {
-    padding: 150px  180px;
+    padding: 100px  180px;
 }
 
+.card-img-top{
+    width: 50px;
+    height: auto;
+    color: #fff;
+    background-color: #fff;
 
+}
+
+.card {
+    background-color: var(--color1);
+}
+
+.five .btn {
+    color: var(--color1);
+    font-weight: 600;
+}
 
 
 
