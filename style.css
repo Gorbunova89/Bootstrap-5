@@ -5,6 +5,7 @@ body {
   :root {
     --color1: rgb(245, 126, 41);
     --color2: #4ba11e;
+    --color3: rgb(241, 239, 239);
   }
 
 .header {
@@ -12,14 +13,19 @@ body {
 }
 
 .one {
-    background-color: rgb(241, 239, 239);
+    background-color: var(--color3);
 }
 
 .three .btn, .one .btn, .four .btn {
     background-color: var(--color1);
     color: white;
     font-weight: 500;
-    border-radius: 20px;
+
+}
+
+.three .btn, .four .btn, .five .btn {
+    border-radius: 30px;
+    padding: 10px 20px;
 }
 
 .one img, .three img {
@@ -54,22 +60,38 @@ body {
 }
 
 .card-img-top{
-    width: 50px;
+    width: 70px;
     height: auto;
     color: #fff;
     background-color: #fff;
 
 }
 
-.card {
+.card-one {
     background-color: var(--color1);
 }
 
 .five .btn {
     color: var(--color1);
     font-weight: 600;
+    
 }
 
+.five {
+    background-color: var(--color3);
+}
+
+.bi-android2,  .bi-boxes{
+    background-color: rgb(73, 73, 73);
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.bi-bar-chart-line, .bi-coin {
+    background-color: var(--color3);
+    padding: 10px;
+    border-radius: 50px;
+}
 
 
 
