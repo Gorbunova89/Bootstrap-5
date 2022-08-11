@@ -27,7 +27,7 @@ body {
 
 }
 
-.three .btn, .four .btn, .five .btn {
+.three .btn, .four .btn, .five .btn, .eight .btn {
     border-radius: 30px;
     padding: 10px 20px;
 }
@@ -129,5 +129,12 @@ body {
 }
 
 
-
+.back2 {
+    background: url(img/CapeTown_Wesgro_Photo.jpg);
+    max-height: 500px;
+    background-position: center;
+    border-radius: 10px;
+    background-size: 100%;
+    padding: 100px;
+}
 
